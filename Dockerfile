@@ -1,5 +1,5 @@
 ARG branch=latest
-FROM cccs/assemblyline-v4-service-base:$branch
+FROM cccs/assemblyline-rust-service-base:$branch
 
 ENV SERVICE_PATH unpacme_al.UnpacMeAL
 
